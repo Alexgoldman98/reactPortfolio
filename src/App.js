@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import NavTabs from './components/NavTabs'
 import Home from './components/Home'
 import Contact from './components/Contact'
-import Projects from './components/Projects';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/portfolio" component={Portfolio} />
 
           </Wrapper>
           <Footer />

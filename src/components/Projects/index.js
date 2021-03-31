@@ -1,13 +1,13 @@
 import React from "react";
 import Project from "../Project";
-import Travel from "../Projects/Travel.png";
-import WorkDay from "../Projects/WorkDay.png";
-import Budget from "../Projects/Budget.png";
-import Fitness from "../Projects/Fitness.png";
-import MoodTracker from "../Projects/MoodTracker.png";
+import Travel from "../Portfolio/Travel.png";
+import WorkDay from "../Portfolio/WorkDay.png";
+import Budget from "../Portfolio/Budget.png";
+import Fitness from "../Portfolio/Fitness.png";
+import MoodTracker from "../Portfolio/MoodTracker.png";
 
 
-function Projects() {
+function Portfolio() {
   return (
       <div>
         <Project
@@ -49,4 +49,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Portfolio;
