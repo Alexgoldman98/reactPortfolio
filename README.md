@@ -16,4 +16,4 @@ Portfolio page
 ![code refactor](Assets/SS3.png)
 
 ## Link to deployed application
-https://alexgoldman98.github.io/updatedPortfolioHW15/
+https://react-portfolio-ag.herokuapp.com/
