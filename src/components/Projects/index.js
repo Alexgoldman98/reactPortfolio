@@ -1,10 +1,10 @@
 import React from "react";
 import Project from "../Project";
-import Travel from "../Portfolio/Travel.png";
-import WorkDay from "../Portfolio/WorkDay.png";
-import Budget from "../Portfolio/Budget.png";
-import Fitness from "../Portfolio/Fitness.png";
-import MoodTracker from "../Portfolio/MoodTracker.png";
+import Travel from "../Projects/Travel.png";
+import WorkDay from "../Projects/WorkDay.png";
+import Budget from "../Projects/Budget.png";
+import Fitness from "../Projects/Fitness.png";
+import MoodTracker from "../Projects/MoodTracker.png";
 
 
 function Portfolio() {
