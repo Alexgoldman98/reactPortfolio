@@ -1,7 +1,6 @@
 import React from "react";
 import Project from "../Project";
 import Travel from "../Projects/Travel.png";
-import Fade from "react-reveal/Fade";
 import WorkDay from "../Projects/WorkDay.png";
 import Budget from "../Projects/Budget.png";
 import Fitness from "../Projects/Fitness.png";
@@ -10,7 +9,6 @@ import MoodTracker from "../Projects/MoodTracker.png";
 
 function Projects() {
   return (
-    <Fade left>
       <div>
         <Project
           name="Mood Tracker"
@@ -48,7 +46,6 @@ function Projects() {
           repository="https://github.com/Alexgoldman98/workDaySchedulerHW5"
         />
       </div>
-    </Fade>
   );
 }
 

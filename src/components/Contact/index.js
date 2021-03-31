@@ -1,12 +1,10 @@
 import React from 'react'
 import './style.css'
-import Fade from 'react-reveal/Fade';
 import Github from '../Contact/Github.png'
 import LinkedIn from '../Contact/LinkedIn.png'
 
 function Contact() {
     return (
-        <Fade left>
             <div className="container">
                 <div className="contact">
                     <h5>Email</h5>
@@ -19,7 +17,6 @@ function Contact() {
 
                 </div>
             </div>
-        </Fade>
     )
 }
 

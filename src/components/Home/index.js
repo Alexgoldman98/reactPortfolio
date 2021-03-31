@@ -4,12 +4,10 @@ import './style.css'
 import HeadShot from '../Home/HeadShot.jpeg'
 import DownloadPic from '../Home/DownloadPic.png'
 import Resume from '../Home/Resume.pdf'
-import Fade from 'react-reveal/Fade';
 
 
 function Home() {
     return (
-        <Fade left>
             <div className="container">
                 <div>
                     <h2 id="title">About Me</h2>
@@ -35,7 +33,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-        </Fade>
     )
 }
 
